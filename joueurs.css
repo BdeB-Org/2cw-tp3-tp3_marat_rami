@@ -3,16 +3,17 @@ body {
     margin: 0;
     padding: 0;
 }
-h1 {
+header {
     background-size: cover;
     background-image: url(images/barca_colors.png);
+    
     color: rgb(15, 1, 1);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0;
-    height: 200px; /* Adjust the height as needed */
+    height: 200px; 
 }
 table {
     width: 100%;
@@ -24,7 +25,9 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 th {
-    background-color: #f5f5f5; /* Replace with your desired color */
+    color: white;
+    background-color: #070505;
+
 }
 #joueurs {
     margin: 20px;
