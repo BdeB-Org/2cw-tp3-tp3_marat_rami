@@ -6,3 +6,179 @@ header {
 	width: 1900px;
 	height: 400px;
 }
+
+/*Affichange en rangé numero 1*/
+.flex-container1{
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	padding-left: 220px;
+	height: 480px;
+	justify-content: space-between;
+	align-items: start;
+}
+
+/*Style button Joueurs*/
+.buttonJoueur {
+    position: relative;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/joueurs.jpg);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonJoueur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/joueurs.jpg);
+    filter: brightness(0.6);
+    border-radius: 10px;
+	transition: 0.5s;
+    z-index: -1;
+}
+
+.buttonJoueur:hover {
+	filter: brightness(1);
+}
+
+.buttonPerformance {
+    position: relative;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/performance.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*Style button Performances*/
+.buttonPerformance::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/performance.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    filter: brightness(0.6);
+    border-radius: 10px;
+	transition: 0.5s;
+    z-index: -1;
+}
+
+.buttonPerformance:hover {
+	filter: brightness(1);
+}
+
+/*Affichange en rangé numero 2*/
+.flex-container2{
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	padding-left: 220px;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 30px;
+}
+
+/*Style button Entrainements*/
+.buttonEntrainements {
+    position: relative;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/entrainements.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonEntrainements::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/entrainements.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    filter: brightness(0.6);
+    border-radius: 10px;
+	transition: 0.5s;
+    z-index: -1;
+}
+
+.buttonEntrainements:hover {
+	filter: brightness(1);
+}
+
+/*Style button matches*/
+.buttonMatches {
+    position: relative;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/Matches.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonMatches::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Matches.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    filter: brightness(0.6);
+    border-radius: 10px;
+	transition: 0.5s;
+    z-index: -1;
+}
+
+.buttonMatches:hover {
+	filter: brightness(1);
+}
