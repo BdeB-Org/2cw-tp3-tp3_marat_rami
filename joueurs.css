@@ -1,3 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 h1 {
     background-size: cover;
     color: rgb(15, 1, 1);
@@ -7,4 +12,19 @@ h1 {
     text-align: center;
     margin: 0;
     height: 200px; /* Adjust the height as needed */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f5f5f5; /* Replace with your desired color */
+}
+#joueurs {
+    margin: 20px;
 }
