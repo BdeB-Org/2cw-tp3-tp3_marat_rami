@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-size: cover;
+    width: auto;
+    background-image: url(images/barca_colors.png);
+    color: rgb(15, 1, 1);
+    margin: 0;
+    height: 200px; 
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.back-button{
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    color: white;
+    background-color: #070505;
+
+}
+#matches{
+    margin: 20px;
+}
